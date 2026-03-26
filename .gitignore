@@ -205,3 +205,20 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+# Ignore heavy model weights
+q1_whisper_finetune/models/
+*.safetensors
+*.bin
+*.h5
+
+# Ignore raw audio and datasets
+q1_whisper_finetune/data/
+q2_asr_cleanup/sample_audio/
+*.wav
+*.mp3
+*.tar.gz
+
+# Ignore environment files
+__pycache__/
+*.pyc
+.env
