@@ -1,0 +1,6 @@
+word,label,confidence,reason,ground_truth,classifier_correct
+करतासा,incorrect_spelling,LOW,ambiguous; more signals negative than positive,correct_spelling,False
+समझाया,incorrect_spelling,LOW,ambiguous; more signals negative than positive,correct_spelling,False
+थाा,incorrect_spelling,LOW,ambiguous; more signals negative than positive,incorrect_spelling,True
+हैिं,incorrect_spelling,LOW,ambiguous; more signals negative than positive,incorrect_spelling,True
+बोलनाा,incorrect_spelling,LOW,ambiguous; more signals negative than positive,incorrect_spelling,True
